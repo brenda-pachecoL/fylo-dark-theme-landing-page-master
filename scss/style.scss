@@ -1,0 +1,26 @@
+$DarkBlue : hsl(217, 28%, 15%);
+$Blue : hsl(218, 28%, 13%);
+$Dark : hsl(216, 53%, 9%);
+$azul : hsl(219, 30%, 18%);
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+
+}
+header{ 
+    color: white;
+    background-color:$Blue;
+    display: flex;
+    justify-content: space-around;
+   ul{
+       a{
+           color: white;
+       }
+   }
+}
+main{
+    background-color: brown;
+    
+}

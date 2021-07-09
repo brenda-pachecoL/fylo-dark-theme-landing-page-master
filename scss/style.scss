@@ -1,6 +1,6 @@
 
 @import "components/colors";
-@import "components/paddings";
+@import "components/margins";
 
 
 body{
@@ -12,9 +12,9 @@ body{
 header{ 
     background-color: $Darkmain;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
    ul{
-       padding: $padding-header;
+       margin: $margins-header;
        display: flex;
        justify-content: space-around;
        a{
@@ -26,17 +26,50 @@ header{
     width: 30%;
 }
 .logo_up{
-    padding: $padding-header;
+    margin: $margins-header;
    
 }
 main{
     background-color: $Darkmain;
     
 }
+.information-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .img-intro{
     display: flex;
     justify-content: center;
+    width: 70%;
     img{
-        width: 70%;
+        width: 100%;
     }
+}
+.text-up{
+    width: 70%;
+    text-align: center;
+    color: $White;
+    img{
+        width: 100%;
+    }
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: $margin-op-con;
+}
+.options-container{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.options-up{
+    width: 40%;
+    margin: $margins-op-up;
+    color: $White;
 }

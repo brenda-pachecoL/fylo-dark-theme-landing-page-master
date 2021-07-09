@@ -13,17 +13,21 @@ header{
     background-color: $Darkmain;
     display: flex;
     justify-content: space-between;
+    align-items: center;
    ul{
-       margin: $margins-header;
+
        display: flex;
        justify-content: space-around;
+       margin: 0%;
+       padding: 0%;
        a{
            color: white;
        }
    }
 }
 .menu{
-    width: 30%;
+    width: $menu;
+    margin: $margins-header;
 }
 .logo_up{
     margin: $margins-header;
@@ -41,13 +45,13 @@ main{
 .img-intro{
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: $contenedor-inf-up;
     img{
         width: 100%;
     }
 }
 .text-up{
-    width: 70%;
+    width: $contenedor-inf-up;
     text-align: center;
     color: $White;
     img{
@@ -61,7 +65,7 @@ main{
     margin: $margin-op-con;
 }
 .options-container{
-    width: 80%;
+    width: 70%;
     display: flex;
     text-align: center;
     align-items: baseline;
@@ -72,4 +76,48 @@ main{
     width: 40%;
     margin: $margins-op-up;
     color: $White;
+}
+.cont-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $White;
+    
+    img{
+        width: 100%;
+    }
+    div{
+        width: 40%;
+    }
+    .img-productive{
+        width: 40%;
+    }
+    .description{
+        display: flex;
+    }
+    
+}
+.container-profile{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile{
+    width: 30%;
+    border-radius: 5px;
+    color: $White;
+    background-color: $testimonials;
+}
+.descriptio-profile{
+    
+       
+      img{
+          width: 30px;
+          border-radius: 30px;
+      }
+
+
+  
 }

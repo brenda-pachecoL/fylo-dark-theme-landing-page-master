@@ -1,26 +1,42 @@
-$DarkBlue : hsl(217, 28%, 15%);
-$Blue : hsl(218, 28%, 13%);
-$Dark : hsl(216, 53%, 9%);
-$azul : hsl(219, 30%, 18%);
+
+@import "components/colors";
+@import "components/paddings";
 
 
 body{
-    padding: 0%;
-    margin: 0%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 
 }
 header{ 
-    color: white;
-    background-color:$Blue;
+    background-color: $Darkmain;
     display: flex;
     justify-content: space-around;
    ul{
+       padding: $padding-header;
+       display: flex;
+       justify-content: space-around;
        a{
            color: white;
        }
    }
 }
+.menu{
+    width: 30%;
+}
+.logo_up{
+    padding: $padding-header;
+   
+}
 main{
-    background-color: brown;
+    background-color: $Darkmain;
     
+}
+.img-intro{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 70%;
+    }
 }
